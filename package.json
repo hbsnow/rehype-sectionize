@@ -1,6 +1,6 @@
 {
   "name": "@hbsnow/rehype-sectionize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rehype plugin that wraps section based on heading",
   "type": "module",
   "main": "dist/index.js",
