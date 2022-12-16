@@ -4,7 +4,7 @@
 
 ## Motivation
 
-There is already [rehype-section](https://github.com/agentofuser/rehype-section) in the library for sectioning. But it could not change the class of section. I was referred [rehype-section](https://github.com/agentofuser/rehype-section). Thanks.
+There is already [rehype-section][rehype-section] in the library for sectioning. But it could not change the class of section. I was referred [rehype-section][rehype-section]. Thanks.
 
 ## Install
 
@@ -46,3 +46,7 @@ npm i -D @hbsnow/rehype-sectionize
 ## License
 
 [MIT][license] © [hbsnow][author]
+
+[license]: license
+[author]: https://hbsnow.dev
+[rehype-section]: https://github.com/agentofuser/rehype-section
