@@ -16,7 +16,7 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "lint": "rome ci {src,tests}"
+    "lint": "rome ci src tests"
   },
   "repository": {
     "type": "git",
