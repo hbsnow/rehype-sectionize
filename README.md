@@ -4,7 +4,7 @@
 
 ## Motivation
 
-There is already [rehype-section][rehype-section] in the library for sectioning. But it could not change the class of section. I was referred [rehype-section][rehype-section]. Thanks.
+There is already [rehype-section][rehype-section] in the library for sectioning. But it could not change the class of section. In addition, sections could not have the slug of heading in the data attribute. I was referred [rehype-section][rehype-section]. Thanks.
 
 ## Install
 

@@ -33,5 +33,9 @@ const run = (name: string, options?: RehypeSectionizeOptions) => {
 };
 
 run("basic");
+run("complexNests");
+run("headingId");
 run("enableRootSection", { enableRootSection: true });
 run("properties", { properties: { className: ["changed"] } });
+run("idPropertyName", { idPropertyName: "dataChanged" });
+run("rankPropertyName", { rankPropertyName: "dataChanged" });
