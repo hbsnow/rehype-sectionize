@@ -16,6 +16,3 @@ node_modules/
 # TypeScript cache
 *.tsbuildinfo
 .npm
-
-# Artifact
-dist
