@@ -49,7 +49,11 @@ const createElement = (
 ) => {
   const { properties, rankPropertyName, idPropertyName } = options;
 
-  if (properties && rankPropertyName && rankPropertyName in properties) {
+  if (
+    properties != null &&
+    rankPropertyName != null &&
+    rankPropertyName in properties
+  ) {
     throw new Error(
       `rankPropertyName(${rankPropertyName}) dataHeadingRank must exist`,
     );
@@ -76,7 +80,14 @@ const createElement = (
 const sectionize: Plugin<[RehypeSectionizeOptions?], Root> = (
   options = defaultOptions,
 ) => {
-  const { enableRootSection, ...rest } = { ...defaultOptions, ...options };
+  const { enableRootSection, ...rest } = {
+    properties: options.properties ?? defaultOptions.properties,
+    enableRootSection:
+      options.enableRootSection ?? defaultOptions.enableRootSection,
+    rankPropertyName:
+      options.rankPropertyName ?? defaultOptions.rankPropertyName,
+    idPropertyName: options.idPropertyName ?? defaultOptions.idPropertyName,
+  };
 
   return (root) => {
     const rootWrapper = createElement(0, rest);
