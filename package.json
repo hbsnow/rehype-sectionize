@@ -23,7 +23,8 @@
     "url": "git+https://github.com/hbsnow/rehype-sectionize.git"
   },
   "keywords": [
-    "rehype"
+    "rehype",
+    "rehype-plugin"
   ],
   "author": "Takahashi Yuki <yuki.4uing@gmail.com> (https://hbsnow.dev/)",
   "license": "MIT",
