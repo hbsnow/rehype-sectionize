@@ -16,7 +16,7 @@ const defaultOptions: Required<RehypeSectionizeOptions> = {
   properties: {},
   enableRootSection: false,
   rankPropertyName: "dataHeadingRank",
-  idPropertyName: "dataHeadingId",
+  idPropertyName: "ariaLabelledby",
 };
 
 const wrappingRank = (

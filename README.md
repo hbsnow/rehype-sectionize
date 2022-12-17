@@ -25,11 +25,11 @@ npm i -D @hbsnow/rehype-sectionize
 ### Output
 
 ```html
-<section class="heading" data-heading-rank="1" data-heading-id="h1-id">
+<section class="heading" data-heading-rank="1" aria-labelledby="h1-id">
   <h1 id="h1-id">h1</h1>
-  <section class="heading" data-heading-rank="2" data-heading-id="h2-id">
+  <section class="heading" data-heading-rank="2" aria-labelledby="h2-id">
     <h2 id="h2-id">h2</h2>
-    <section class="heading" data-heading-rank="3" data-heading-id="h3-id">
+    <section class="heading" data-heading-rank="3" aria-labelledby="h3-id">
       <h3 id="h3-id">h3</h3>
     </section>
   </section>
@@ -43,7 +43,7 @@ npm i -D @hbsnow/rehype-sectionize
 | `properties`        | `hastscript.Properties` | `{}`              | Attributes assigned to section |
 | `enableRootSection` | `boolean`               | `false`           | Section to wrap all            |
 | `rankPropertyName`  | `string`                | `dataHeadingRank` | Name of rank data attribute    |
-| `idPropertyName`    | `string`                | `dataHeadingId`   | Name of id data attribute      |
+| `idPropertyName`    | `string`                | `ariaLabelledby`  | Name of id data attribute      |
 
 ## License
 
