@@ -1,6 +1,7 @@
 # rehype-sectionize
 
 ![test workflow](https://github.com/hbsnow/rehype-sectionize/actions/workflows/test.yml/badge.svg)
+[![codecov](https://codecov.io/gh/hbsnow/rehype-sectionize/branch/main/graph/badge.svg?token=T3Z18P56LV)](https://codecov.io/gh/hbsnow/rehype-sectionize)
 
 ## Motivation
 
