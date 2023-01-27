@@ -1,9 +1,8 @@
 import { Plugin } from "unified";
 import { headingRank } from "hast-util-heading-rank";
 import { heading } from "hast-util-heading";
-import type { Root, RootContent } from "hast";
+import type { Element, Root, RootContent } from "hast";
 import type { Properties } from "hastscript";
-import type { Element } from "hastscript/lib/core";
 
 export type RehypeSectionizeOptions = {
   properties?: Properties | undefined;
